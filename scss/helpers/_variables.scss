@@ -1,0 +1,53 @@
+$primary: grey;
+.top-nav {
+    background: $primary;
+    display: block;
+    li {
+        display: inline-block;
+        padding-left: 100px;
+        a {
+            display: block;
+            &:hover {
+                background: dodgerblue;
+            }
+            &:active {
+                background: white;
+            }
+        }
+    }
+}
+
+//Font Settings
+$body-font: 'Roboto',
+serif;
+//Responsive Sizes
+$small: 42em;
+.header {
+    display: inline-block;
+}
+
+.image-logo {
+    display: inline-block;
+}
+
+.link-social {
+    display: inline-block;
+}
+
+.wrapper {
+    border-top: 20px black;
+    display: block;
+    li {
+        display: inline-block;
+        padding-left: 300px;
+        a {
+            display: block;
+            &:hover {
+                background: lightslategray;
+            }
+            &:active {
+                background: white;
+            }
+        }
+    }
+}

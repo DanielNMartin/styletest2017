@@ -1,0 +1,128 @@
+                nav {
+                    &.top-nav {
+                        margin-top: 25px;
+                        background: lightgrey;
+                        box-shadow: 0px 0px 2px 1px rgba(black, .75);
+                        text-align: center;
+                        a {
+                            display: inline-block;
+                            margin-left: 5px;
+                            padding: 0.5em 1em;
+                            color: black;
+                            font-family: 'Roboto', 'Noto', sans-serif;
+                            &:hover {
+                                background: darken(lightslategray, 10%);
+                            }
+                            @media(max-width: $small) {
+                                padding: 1em 0.5em;
+                                font-size: .50em;
+                            }
+                        }
+                    }
+                }
+                
+                div {
+                    &.Titlebar {
+                        float: left;
+                        width: 21%;
+                        &:hover {
+                            background: darken(lightslategray, 10%);
+                        }
+                    }
+                }
+                
+                div {
+                    &.companyname {
+                        float: left;
+                        width: 20%;
+                        font-size: 2em;
+                        margin-left: 120px;
+                        margin-top: 5px;
+                        &:hover {
+                            background: darken(lightslategray, 10%);
+                        }
+                    }
+                }
+                
+                div {
+                    &.medialinks {
+                        float: right;
+                        margin-right: 50px;
+                        &:hover {
+                            background: darken(lightslategray, 10%);
+                        }
+                    }
+                }
+                
+                div {
+                    &.separator {
+                        clear: both;
+                    }
+                }
+                
+                li {
+                    display: inline-block;
+                }
+                
+                div {
+                    &.image-logo {
+                        font-family: 'Roboto', 'Noto', sans-serif;
+                        margin-top: -55px;
+                        margin-left: 355px;
+                        padding: 0.1em 2em;
+                        bottom: 0px;
+                        overflow: auto;
+                        font-size: 2em;
+                        &:hover {
+                            background: darken(lightslategray, 10%);
+                        }
+                        @media(max-width: $small) {
+                            padding: 1em 0.5em;
+                            font-size: .50em;
+                        }
+                    }
+                }
+                
+                div {
+                    &.pictureleft {
+                        width: 60%;
+                        float: left;
+                        min-width: 60%;
+                    }
+                }
+                
+                div {
+                    &.pictureright {
+                        margin-top: -500px;
+                        width: 30%;
+                        float: right;
+                        min-width: 20%;
+                        margin-right: -50px;
+                    }
+                }
+                
+                div {
+                    &.text1 {
+                        float: left;
+                        width: 60%;
+                    }
+                }
+                
+                div {
+                    &.text2 {
+                        float: left;
+                        width: 60%;
+                    }
+                }
+                
+                div {
+                    &.textside {
+                        float: right;
+                        display: inline !important;
+                    }
+                }
+                
+                * {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
